@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tetris easy version</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+
+    <body>
+        <div id="app">
+          <h1>TETRIS</h1>
+          <h3>{{ reversedStartMessage}}</h3>
+            <li v-for="cells in displayTable">
+                <span v-for="cell in cells" :class="getColor(cell)"></span>
+            </li>
+        </div>
+        <script type="text/javascript" src='main.js'></script>
+    </body>
+
+</html>

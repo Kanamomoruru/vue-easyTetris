@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+}
+h1, h3{
+    text-align: center;
+  }
+li {
+    text-align: center;
+    list-style: none;
+    height: 30px;
+}
+
+span {
+    background-color: #000 !important;
+}
+.green {
+background: linear-gradient(45deg, #389406, transparent);
+}
+.red {
+background: linear-gradient(45deg, #ee3f3f, transparent);
+}
+.blue {
+background: linear-gradient(45deg, #1a5dec, transparent);
+}
+span {
+height: 30px;
+width: 30px;
+display: inline-block;
+background: gainsboro;
+border: 1px solid white;
+box-sizing: border-box;
+}
